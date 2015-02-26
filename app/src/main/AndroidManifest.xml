@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kazin.mipe" >
+
+    <uses-sdk android:minSdkVersion="14"  />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-feature android:name="android.hardware.camera"   android:required="false" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+
+        android:name=".MipeApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivityMipe"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity android:name=".LoginActivity"
+            android:label="Mipe">
+        <intent-filter android:label="Mipe">
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity
+            android:name="com.facebook.LoginActivity"
+            android:label="@string/title_facebook_login" >
+        </activity>
+
+        <activity android:name=".SignUpActivity"
+            android:label="Sign up"
+            android:parentActivityName=".LoginActivity"
+            />
+        <activity android:name=".ChangeAvatarActivity"
+            android:theme="@android:style/Theme.Holo.Dialog"
+            android:label="Change Avatar Activity"
+            android:parentActivityName=".MainActivityMipe"
+            />
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/app_id"/>
+        <activity android:name=".AboutActivity"
+            android:label="About"
+            android:parentActivityName=".MainActivityMipe"/>
+    </application>
+
+</manifest>

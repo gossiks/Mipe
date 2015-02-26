@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:alpha="50"
+    android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/avatarDrawer"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/avatar_dummy"
+        app:border_width="1dp"
+        app:border_color="@color/MipeTheme.additional.facebook.blue"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Username"
+        android:id="@+id/usernameDrawer"
+        android:layout_marginLeft="10dp"
+        android:inputType="textMultiLine"
+        android:textColor="@color/abc_primary_text_material_light"
+        android:layout_below="@+id/avatarDrawer"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/optionsDrawer"
+        android:background="@drawable/ic_action_expand"
+        android:layout_alignBottom="@+id/usernameDrawer"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>
+

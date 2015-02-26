@@ -1,0 +1,10 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="MipeTheme.MainActivity">
+        <!-- Customize your theme here. -->
+    </style>
+
+
+
+</resources>

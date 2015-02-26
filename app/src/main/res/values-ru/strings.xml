@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mipe</string>
+    <string name="alert_avatar_image_changed">Аватар изменен.</string>
+    <string name="alert_cant_signup_empty_fields">Невозможно войти из-за незаполненных полей</string>
+    <string name="alert_enter_some_hashtags">Введите хештеги</string>
+    <string name="alert_error_message">Ошибка</string>
+    <string name="alert_error_uploading_usage_data">Ошибка загрузки данных. Попробуйте снова, нажав на кнопку загрузки.</string>
+    <string name="alert_hashtags_must_be_less_than">Хештеги должны быть меньше 13 символов</string>
+    <string name="alert_image_uploaded">Изображение загружено!</string>
+    <string name="alert_login_before_link">Войдите в Mipe прежде чем соединять аккаунты.</string>
+    <string name="alert_login_error">Ошибка входа.</string>
+    <string name="alert_login_or_pass_empty">Логин или пароль пусты.</string>
+    <string name="alert_not_enough_stats">Пока не достаточно статистики. Посмотрите еще на картинки.</string>
+    <string name="alert_seen_all_images">Поздравляем! Вы видели все изображения в Mipe! Теперь можете загружать изображения самостоятельно.</string>
+    <string name="alert_sign_error">Ошибка регистрации.</string>
+    <string name="alert_success_link_facebook">Аккаунт успешно связан с Facebook!</string>
+    <string name="options_about">О программе</string>
+    <string name="options_link_facebook">связать с Facebook</string>
+    <string name="options_log_off">выйти из Mipe</string>
+    <string name="options_title">Опции</string>
+    <string name="stats_plot_title">Ваши самые популярные хештеги</string>
+    <string name="title_facebook_login">вход через Facebook</string>
+    <string name="title_section2">Новый Mipe</string>
+    <string name="title_section3">Статистика</string>
+    <string name="stats_y_label">Время просмотра, мс</string>
+    <string name="teach_at_images">на картинки</string>
+    <string name="teach_how_to_use_mipe">Что такое Mipe:</string>
+    <string name="teach_like_time">= лайк</string>
+    <string name="teach_look">Смотри</string>
+    <string name="teach_stare_time">Время просмотра</string>
+    <string name="teach_statistics">статистикой</string>
+    <string name="teach_wonder">Поразись</string>
+    <string name="login_button_login">Войти</string>
+    <string name="login_login_with_facebook">Войти через Facebook</string>
+    <string name="login_password">пароль</string>
+    <string name="login_sign_up">зарегистрироваться</string>
+    <string name="login_username">имя пользователя</string>
+</resources>

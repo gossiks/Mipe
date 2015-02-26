@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:background="@drawable/ic_launcher"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:id="@+id/textView3"
+        android:padding="0dp"
+        android:gravity="start"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <info.hoang8f.widget.FButton
+        xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/aboutCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:drawablePadding="0dp"
+        android:minHeight="80dp"
+        android:minWidth="250dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="20dp"
+        android:paddingTop="-5dp"
+        android:text="back to Mipe"
+        android:layout_weight="1"
+        fbutton:buttonColor="@color/MipeTheme.main.attribute"
+        android:textColor="@color/abc_primary_text_material_dark"
+        fbutton:cornerRadius="15dp"
+        fbutton:shadowEnabled="true"
+        fbutton:shadowHeight="6dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:text="
+Mipe, 2015\n
+developer: Alexey Kazin\n
+support: mipe.kazin@gmail.com
+\n
+\n
+Additional libraries:\n
+com.parse.bolts:bolts-android:1.1.4
+Parse-1.8.1
+commons-io:2.0.1
+com.jjoe64:graphview:4.0.0
+info.hoang8f:fbutton:1.0.5
+com.facebook.android:3.21.1
+de.hdodenhof:circleimageview:1.2.1
+com.getbase:floatingactionbutton:1.7.0
+com.squareup.picasso:picasso:2.4.0
+android support libs v7:21.0.3 and v4:+"
+        android:layout_below="@+id/textView3"
+        android:textIsSelectable="true"
+        android:editable="false"
+        android:inputType="textNoSuggestions|textMultiLine"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
